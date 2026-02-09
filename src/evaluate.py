@@ -6,3 +6,7 @@ def evaluate(y_true,y_pred):
         "MSE":mean_squared_error(y_true,y_pred),
         "R2":r2_score(y_true,y_pred)
     }
+
+# What MAE means
+# Average absolute difference between actual and predicted value
+# MAE = average(|actual − predicted|)
